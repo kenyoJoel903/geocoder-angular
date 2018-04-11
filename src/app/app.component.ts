@@ -63,7 +63,7 @@ export class AppComponent implements OnInit {
 
   searchAddress(){
     this.geocoderServide.simpleAddress(this.distritoSelected.ubigeo,this.address, this.token)
-      .subscribe((data: string)=>{
+      .subscribe((data: any)=>{
         if(data.address){
           let _address = data.address;
             let descripcion = _address[0].results[0]['properties']['label'];
