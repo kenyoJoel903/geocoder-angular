@@ -3,7 +3,7 @@
 A web mapping application starter based on Angular X and Leaflet. This project demo includes basic mapping features:
 * [x] Display base maps from different sources
 
-* [x] Consume services of Geodir Geocoder (`http://www.geodir.co/documentacion/geocoder/start.html`)
+* [x] Consume services of [Geodir](http://www.geodir.co) [Geocoder](http://www.geodir.co/documentacion/geocoder/start.html)
 
 * [x] Add/remove markers on the map
 
