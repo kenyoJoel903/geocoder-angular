@@ -1,27 +1,25 @@
 # GeocoderSearch
 
+A web mapping application starter based on Angular X and Leaflet. This project demo includes basic mapping features:
+* [x] Display base maps from different sources
+
+* [x] Consume services of Geodir Geocoder (`http://www.geodir.co/documentacion/geocoder/start.html`)
+
+* [x] Add/remove markers on the map
+
+* [x] Use unofficially typed Leaflet plugin
+
+* [x] Built with Angular CLI
+
+Support [Angular 5.x](https://angular.io/) and [Leaflet 1.3](http://leafletjs.com/) now!
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Development server
+## How to start?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project requires [npm](https://www.npmjs.com/) (or [yarn](https://yarnpkg.com/)).
 
-## Code scaffolding
+1. Run `npm install` to install dependencies.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Run `ng serve` to set up the dev server.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+3. See the app at `localhost:4200`.
