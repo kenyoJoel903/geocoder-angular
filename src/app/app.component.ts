@@ -35,7 +35,7 @@ export class AppComponent implements OnInit {
     const mapa =  L.map("map", {
       zoomControl: false,
       center: center,
-      zoom: 5,
+      zoom: 16,
       minZoom: 2,
       maxZoom: 19,
       layers: [this.mapService.baseMaps.GeoDir]

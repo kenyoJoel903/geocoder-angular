@@ -14,6 +14,8 @@ A web mapping application starter based on Angular X and Leaflet. This project d
 Support [Angular 5.x](https://angular.io/) and [Leaflet 1.3](http://leafletjs.com/) now!
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
+See how it looks at [demo page](https://geocoder-search.herokuapp.com/).
+
 ## How to start?
 
 This project requires [npm](https://www.npmjs.com/) (or [yarn](https://yarnpkg.com/)).

@@ -1,11 +1,12 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-4">
+    <div class="col-4" id="mainForm">
         <form>
           <div class="row">
               <div class="col-sm-6 form-group">
                   <label for="token">Token</label>
                   <input type="text" [(ngModel)]="token" id="token" name="token" class="form-control" placeholder="Ingrese token"/>
+                  <a href="http://geocoder.geodir.co/geocoder/" target="_blank" >Obtener token</a>
               </div>
               <div class="col-sm-6 form-group">
                   <label for="busqueda">Distrito</label>
